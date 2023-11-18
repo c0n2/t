@@ -1,7 +1,7 @@
 [Script]
-http-request ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.request.js, requires-body=1, tag=📺 TV.uts.request
-http-response ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.response.js, requires-body=1, tag=📺 TV.uts.response
-http-request ^https?:\/\/umc-tempo-api\.apple\.com\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.request.js, requires-body=1, tag=📺 TV.umc.request
+http-request ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.request1.js, requires-body=1, tag=📺 TV.uts.request
+http-response ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.response1.js, requires-body=1, tag=📺 TV.uts.response
+http-request ^https?:\/\/umc-tempo-api\.apple\.com\/(v1|v2|v3)\/.* script-path=https://raw.githubusercontent.com/c0n2/t/main/TV.request1.js, requires-body=1, tag=📺 TV.umc.request
 
 [MITM]
 hostname = uts-api.itunes.apple.com, umc-tempo-api.apple.com
